@@ -1,7 +1,17 @@
 @echo off
 set DIR=%CD%
-cd C:\Users\Diogo\Desktop\FCUP\Programing\Proyects\Encript\Main
+
+
+
+REM CHANGE THIS DIRECTORY
+cd C:\Users\...
+
+
+
+
+
 color 3f
+
 set /p ch0=<"Char0.txt"
 set /p ch1=<"Char1.txt"
 
