@@ -4,7 +4,7 @@ set DIR=%CD%
 
 
 REM CHANGE THIS DIRECTORY
-cd C:\Users\...
+cd C:\Users\Diogo\Desktop\FCUP\Programing\Proyects\Encript\Main
 
 
 
@@ -89,6 +89,7 @@ goto :menu
 :resetChars
 set ch0=0
 set ch1=1
+echo %ch0%%ch1% > "Chars.txt"
 goto :menu
 
 
